@@ -1,0 +1,39 @@
+.body {
+    background-image: linear-gradient(to bottom right, rgb(15, 26, 128), rgb(150, 228, 241));
+}
+
+.Cl {
+    height: 680px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(78, 71, 184, 0.078);
+}
+
+.car {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card {
+    margin-top: 50px;
+    margin-bottom: 200px;
+    border-radius: 30px;
+}
+
+.tr {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 150px;
+    color:blanchedalmond
+}
+
+@media only screen and (max-width: 600px) {
+    .car {
+        flex-direction: column;
+    }
+}
